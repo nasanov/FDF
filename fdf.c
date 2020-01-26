@@ -6,7 +6,7 @@
 /*   By: nasanov <nasanov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/23 14:55:37 by nasanov           #+#    #+#             */
-/*   Updated: 2020/01/23 15:30:45 by nasanov          ###   ########.fr       */
+/*   Updated: 2020/01/25 19:59:29 by nasanov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,4 +18,6 @@ int		main(int argc, char **argv)
 		ft_error("usage: ./fdf map.fdf");
 	mlx_key_hook(PRM.win_ptr, deal_key, matrix);
 	mlx_loop(PRM.mlx_ptr);
+    /*
+    */
 }

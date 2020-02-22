@@ -47,7 +47,7 @@ void    fill_matrix(int *z_line, char *line)
     free(nums);
 }
 
-void    read_file(char *file_name, fdf *data)
+void    read_file(char *file_name, t_fdf *data)
 {
     int fd;
     char *line;
@@ -70,5 +70,7 @@ void    read_file(char *file_name, fdf *data)
         i++;
     }
     close(fd);
-    //data->z_matrix[i] = NULL;
+    
+    // ? data->z_matrix[i] = NULL;  
+    // ! НАХУЯ?
 }

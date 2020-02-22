@@ -36,5 +36,13 @@ void        draw(t_fdf *data);
 float		max(float x, float y);
 float		mod(float x);
 void		initialize_coords(t_coord *a, t_coord *b);
+void		projection(t_coord *a, t_coord *b);
+void		shifting(t_coord *a, t_coord *b, t_fdf *data);
+void		change_alt(t_coord *a, t_coord *b, t_fdf *data);
+void		zooming(t_coord *a, t_coord *b, t_fdf *data);
+void		draw_background(t_fdf *data);
+int			key_background(int key, t_fdf *data);
+int			key_shift(int key, t_fdf *data);
+int			key_alt_iso(int key, t_fdf *data);
 
 #endif

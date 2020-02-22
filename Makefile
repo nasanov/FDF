@@ -6,12 +6,12 @@
 #    By: nasanov <nasanov@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/09/16 16:23:11 by nasanov           #+#    #+#              #
-#    Updated: 2020/02/21 17:40:02 by nasanov          ###   ########.fr        #
+#    Updated: 2020/02/21 19:54:40 by nasanov          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = fdf
-SRCS = draw.c fdf.c read_file.c helper_func.c
+SRCS = draw.c fdf.c read_file.c helper_func.c bonus_func.c key_control_func.c
 LIB = libft/libft.a
 MINILIBX = minilibx_macos/libmlx.a
 LINKER = -framework OpenGL -framework AppKit

@@ -1,11 +1,23 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   helper_func.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: nasanov <nasanov@student.42.fr>            +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/02/21 19:39:58 by nasanov           #+#    #+#             */
+/*   Updated: 2020/02/21 19:40:19 by nasanov          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "fdf.h"
 
-float   max(float x, float y)
+float	max(float x, float y)
 {
 	return ((x > y) ? x : y);
 }
 
-float   mod(float x)
+float	mod(float x)
 {
 	return (x < 0) ? -x : x;
 }

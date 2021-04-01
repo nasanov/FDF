@@ -1,6 +1,7 @@
 # FDF
 3D Wire frame visualization using the Minilibix library from 42 Silicon Valley
 
+### Input
 ```
 $> cat -e 42.fdf
 0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0$
@@ -17,3 +18,5 @@ $> cat -e 42.fdf
 $>
 ```
 
+### Output
+![Output](fdf.jpg)
